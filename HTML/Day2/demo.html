@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>HTML Lecture 2</title>
+
+  <link rel="stylesheet" href="./myStyle.css">
+  <style>
+    /* h1{
+      font-style: italic;
+      color: brown;
+      background-color: aqua;
+    } */
+
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="https://yahoo.com">Arabic</a></li>
+        <li><a href="https://yahoo.com">English</a></li>
+        <li>French</li>
+        <li>Contact</li>
+      </ul>
+      </nav>
+
+  </header>
+  <!-- Grouping Elements <div> -->
+  <!-- <div> container -->
+    <div>
+      <h1 style="color:blue;font-style: italic;background-color: lightgrey ">Test</h1>
+
+
+  </div>
+ 
+  <!-- 2-Internal Style -->
+
+  <div class="d1">
+    <h1 class="c1">Div with class c1</h1>
+    <h2>header2 #1</h2>
+    <small>    
+      Posted by: Noha Salah
+    </small>
+    <p class="">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ipsam
+      exercitationem deserunt earum et illum itaque vitae unde? Eum voluptatem
+      quas ratione. Quasi vel autem natus maxime iste reiciendis in.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ipsam
+      exercitationem deserunt earum et illum itaque vitae unde? Eum voluptatem
+      quas ratione. Quasi vel autem natus maxime iste reiciendis in.
+    </p>
+    <button onclick="alert('Welcome')"> <a href="test.html">Click Me</a> </button>
+
+  </div>
+
+  <!-- External Style -->
+<br>
+  <div id="id1">
+    <h1>Div with id id1</h1>
+    <small>Posted by:</small>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos ipsam
+      exercitationem deserunt earum et illum itaque vitae unde? Eum voluptatem
+      quas ratione. Quasi vel autem natus maxime iste reiciendis in.
+    </p>
+    <nav>
+    <ul>
+      <li><a href="https://yahoo.com">Arabic</a></li>
+      <li><a href="https://yahoo.com">English</a></li>
+      <li>French</li>
+      <li>Contact</li>
+    </ul>
+    </nav>
+    <a href="#">Learn more...</a>
+  </div>
+  <hr />
+
+  <!-- Table -->
+  <table border="1px" >
+    <thead>
+      <tr>
+        <th >your Name </th>
+        <th>Email</th>
+        <th>Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>koko</td>
+        <td>brad@something.com</td>
+        <td>35</td>
+      </tr>
+      <tr>
+        <td>John Doe</td>
+        <td>jdoe@something.com</td>
+        <td>45</td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>Sara Williams</td>
+        <td>sara@something.com</td>
+        <td>25</td>
+
+      </tr>
+      <tr>
+        <td>Sara Williams</td>
+        <td></td>
+        <td>25</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- <br /> -->
+  <hr />
+  <br />
+  <hr />
+
+  <!-- Forms -->
+
+  <form action="process.php">
+
+    <br />
+    <div>
+      <label>Last Name</label>
+      <input type="text" name="lastName" />
+    </div>
+    <br />
+    <div>
+      <label>Email</label>
+      <input type="email" name="email" required />
+    </div>
+    <br />
+    <div>
+      <label>Message</label>
+      <textarea name="message" ></textarea>
+    </div>
+    <br />
+    <div>
+      <!-- Form select list -->
+      <label>Gender</label>
+      <select name="gender">
+        <option value="select" disabled selected>--Select--</option>
+        <option value="male">M</option>
+        <option value="female">F</option>
+      </select>
+    </div>
+    <br />
+    <div>
+      <label>Age:</label>
+      <input type="number" name="koko" value="21" />
+    </div>
+    <br />
+    <div>
+      <label>Birthday:</label>
+      <input type="date" name="birthday" />
+    </div>
+    <br />
+    <div>
+      <label >Gender:</label>
+      <input type="radio" name="radioGender" value="M" />Male
+      <input type="radio" name="radioGender" value="F" />Female
+
+    </div>
+    <br />   
+    <div>
+      <input type="checkbox" name="checkAgree" />Agree the terms and conditions.
+    </div>
+    <br /> 
+    <input type="submit" name="submit" value="Confirm" />
+  </form>
+<footer></footer>
+</body>
+
+</html>

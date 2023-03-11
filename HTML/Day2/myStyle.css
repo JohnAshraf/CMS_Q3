@@ -1,0 +1,22 @@
+.c1{
+    font-style: italic;
+    color: brown;
+    background-color: aqua;
+     }
+  .d1{
+   border: 3px dashed green;
+    background-color: bisque;
+    padding: 20px;
+  }
+  #id1{
+    border: 3px dashed red;
+
+  }
+  #id1 ul li{
+    display: inline; 
+    color: red;
+  }
+
+  a{
+    text-decoration: none;
+  }
