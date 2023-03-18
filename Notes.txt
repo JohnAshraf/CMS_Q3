@@ -24,3 +24,14 @@ git remote add origin https://github.com/NohaEltohamy/CMS_Q3.git
 git branch -M main
 git push -u origin main
 *********************************************************************
+git branch
+git checkout branchName 
+2 steps in 1 step ==> git checkout -b newBranchName
+
+upstream new branch to my remote repo:
+git push --set-upstream origin newBranchName
+
+git branch -r
+git branch -a
+git branch -d branchName --> git branch -D branchName
+
